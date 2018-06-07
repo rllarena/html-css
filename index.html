@@ -5,6 +5,7 @@
     <meta charset="utf-8"
   </head>
 <title>Módulo HTML-CSS</title>
+<link rel="stylesheet" type="text/css" href="style.css"></link>
   <body>
     <div id="principal">
       <div id="dvInicio">
@@ -14,18 +15,18 @@
           </label>
         </div>
         <div id="dvImg">
-          <img src="user.svg" />
+          <img id="imgUsuario" src="user.svg" />
         </div>
-        <div id="dvUsuario">
-          <label>Usuario:</label>
+        <div id="dvUsuario" class="renglon">
+          <label> Usuario:</label>
           <input type="text"/>
         </div>
-        <div id="dvcontrasena">
-          <label>Contraseña:</label>
+        <div id="dvcontrasena" class="renglon">
+          <label> Contraseña:</label>
           <input type="text"/>
         </div>
-        <div id="dvEntrar">
-          <button>ENTRAR</<button>
+        <div id="dvEntrar" class="renglon">
+          <button> ENTRAR</<button>
         </div>
       </div>
     </div>
